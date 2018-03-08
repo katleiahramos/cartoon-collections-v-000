@@ -1,6 +1,9 @@
 def roll_call_dwarves(array)
   # Your code here
-  for i in 0..array.length-1  
+  array.enum_for(:each_with_index).collect do |item, index| 
+    "#{index}: #{item}" 
+end
+    
 end
 
 def summon_captain_planet# code an argument here

@@ -1,7 +1,8 @@
 def roll_call_dwarves(array)
   # Your code here
   array.enum_for(:each_with_index).collect do |item, index|
-    puts "#{index}: #{item}" 
+    puts "#{index}: #{item}"
+  end 
 end
 
 end

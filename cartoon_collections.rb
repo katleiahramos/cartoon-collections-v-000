@@ -2,12 +2,11 @@ require 'pry'
 
 def roll_call_dwarves(array)
   # Your code here
-  binding.pry
+
   array.each_with_index {|item, index|
+    binding.pry
     puts "#{index}. #{item}"
   }
-
-
 end
 
 

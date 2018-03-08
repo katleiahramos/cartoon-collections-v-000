@@ -4,6 +4,7 @@ def roll_call_dwarves(array)
     puts "#{index}. #{item}"
   }
 end
+end
 
 end
 

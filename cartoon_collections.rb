@@ -2,10 +2,9 @@ require 'pry'
 
 def roll_call_dwarves(array)
   # Your code here
-  array.collect.with_index {|x, i| puts "#{i}. #{x}"}
+  array.collect.with_index {|x, i| puts "#{i+1}. #{x}"}
 end
 
-binding.pry
 
 def summon_captain_planet# code an argument here
   # Your code here
